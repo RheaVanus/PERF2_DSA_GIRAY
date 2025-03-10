@@ -15,8 +15,8 @@ Example Output:
 10
 */
 
-for (let i = 1; i <= 10; i++){
-    if (i % 2 == 0){
-        console.log(i)
+for (let i = 1; i <= 10; i++) { // It starts a loop where i value is 1, while the limit of i is less than or equal to  10, increment or add i by 1 on each iteration
+    if (i % 2 == 0) { // Check if i is even or divisible by 2 with no remainder
+        console.log(i); // Print the even number to the console
     }
 }
