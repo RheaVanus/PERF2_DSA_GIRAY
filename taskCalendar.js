@@ -1,16 +1,5 @@
-/*Instructions:
-1. Create a new JavaScript file named taskCalendar.js.
-2. In the file, perform the following:
+//Switch Statement
 
-o Create a program that prompts the user to enter a day of the week (e.g., "Monday", "Tuesday").
-o Use a switch statement to map each day to a specific task. Include a default case for any
-unexpected inputs.
-o Log the task for that day to the console.
-
-Example Output:
-Enter a day of the week: Monday
-Your task for Monday is: Finish your assignments.
-*/
 
 let day = prompt("Type a day in a week:");
 switch(day){
